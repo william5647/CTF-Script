@@ -6,7 +6,7 @@ import socket
 # We use the socket() method of the module socket and store it in the variable s.
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# Here we use the connect method of the socket we created. The two arguments are pretty self-explanatory
+# Here we use the connect method of the socket we created. The two arguments are pretty self-explanatory.
 # The first is the adress the second is the port.
 s.connect(("address",port_number )) #address and port number
 
